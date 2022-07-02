@@ -33,3 +33,11 @@ starting = "LGA"
 # Determine the minimum number of routes to use
 # that enables any passenger to go from 'LGA' to
 # any other airport.
+
+def calculateMinFlightPath() -> int:
+  return 0
+
+if __name__ == '__main__':
+  # Answer is 3 for this set of airports
+  numberOfRoutes = calculateMinFlightPath()
+  print(f"The solution {numberOfRoutes} is {'correct' if numberOfRoutes == 3 else 'incorrect'}")
